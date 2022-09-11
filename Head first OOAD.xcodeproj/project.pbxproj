@@ -14,20 +14,15 @@
 		EF0B064C28CA21AA00A13980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0B064B28CA21AA00A13980 /* Assets.xcassets */; };
 		EF0B064F28CA21AA00A13980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0B064D28CA21AA00A13980 /* LaunchScreen.storyboard */; };
 		EF0B065A28CA21AA00A13980 /* Head_first_OOADTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B065928CA21AA00A13980 /* Head_first_OOADTests.swift */; };
-		EF0B066428CA21AA00A13980 /* Head_first_OOADUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B066328CA21AA00A13980 /* Head_first_OOADUITests.swift */; };
-		EF0B066628CA21AA00A13980 /* Head_first_OOADUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B066528CA21AA00A13980 /* Head_first_OOADUITestsLaunchTests.swift */; };
-		EF0B067328CA21FA00A13980 /* Guitars.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B067228CA21FA00A13980 /* Guitars.swift */; };
+		EF0B067328CA21FA00A13980 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B067228CA21FA00A13980 /* Guitar.swift */; };
+		EF6F24B928CDC80300F73A59 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F24B828CDC80300F73A59 /* Inventory.swift */; };
+		EF6F24BE28CDD7F400F73A59 /* Chapter02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F24BD28CDD7F400F73A59 /* Chapter02Tests.swift */; };
+		EF6F24C028CDD81000F73A59 /* DogDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F24BF28CDD81000F73A59 /* DogDoor.swift */; };
+		EF6F24C228CDD94A00F73A59 /* RemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F24C128CDD94A00F73A59 /* RemoteControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		EF0B065628CA21AA00A13980 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EF0B063728CA21A900A13980 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EF0B063E28CA21A900A13980;
-			remoteInfo = "Head first OOAD";
-		};
-		EF0B066028CA21AA00A13980 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EF0B063728CA21A900A13980 /* Project object */;
 			proxyType = 1;
@@ -47,10 +42,11 @@
 		EF0B065028CA21AA00A13980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF0B065528CA21AA00A13980 /* Head first OOADTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Head first OOADTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0B065928CA21AA00A13980 /* Head_first_OOADTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Head_first_OOADTests.swift; sourceTree = "<group>"; };
-		EF0B065F28CA21AA00A13980 /* Head first OOADUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Head first OOADUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF0B066328CA21AA00A13980 /* Head_first_OOADUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Head_first_OOADUITests.swift; sourceTree = "<group>"; };
-		EF0B066528CA21AA00A13980 /* Head_first_OOADUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Head_first_OOADUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EF0B067228CA21FA00A13980 /* Guitars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitars.swift; sourceTree = "<group>"; };
+		EF0B067228CA21FA00A13980 /* Guitar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar.swift; sourceTree = "<group>"; };
+		EF6F24B828CDC80300F73A59 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		EF6F24BD28CDD7F400F73A59 /* Chapter02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter02Tests.swift; sourceTree = "<group>"; };
+		EF6F24BF28CDD81000F73A59 /* DogDoor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDoor.swift; sourceTree = "<group>"; };
+		EF6F24C128CDD94A00F73A59 /* RemoteControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +64,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF0B065C28CA21AA00A13980 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +72,6 @@
 			children = (
 				EF0B064128CA21A900A13980 /* Head first OOAD */,
 				EF0B065828CA21AA00A13980 /* Head first OOADTests */,
-				EF0B066228CA21AA00A13980 /* Head first OOADUITests */,
 				EF0B064028CA21A900A13980 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +81,6 @@
 			children = (
 				EF0B063F28CA21A900A13980 /* Head first OOAD.app */,
 				EF0B065528CA21AA00A13980 /* Head first OOADTests.xctest */,
-				EF0B065F28CA21AA00A13980 /* Head first OOADUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +88,8 @@
 		EF0B064128CA21A900A13980 /* Head first OOAD */ = {
 			isa = PBXGroup;
 			children = (
+				EF6F24BA28CDD79B00F73A59 /* Chapter 02 */,
+				EF6F24B728CDC7EB00F73A59 /* Chapter 01 */,
 				EF0B064228CA21A900A13980 /* AppDelegate.swift */,
 				EF0B064428CA21A900A13980 /* SceneDelegate.swift */,
 				EF0B064628CA21A900A13980 /* ViewController.swift */,
@@ -108,7 +97,6 @@
 				EF0B064B28CA21AA00A13980 /* Assets.xcassets */,
 				EF0B064D28CA21AA00A13980 /* LaunchScreen.storyboard */,
 				EF0B065028CA21AA00A13980 /* Info.plist */,
-				EF0B067228CA21FA00A13980 /* Guitars.swift */,
 			);
 			path = "Head first OOAD";
 			sourceTree = "<group>";
@@ -116,18 +104,44 @@
 		EF0B065828CA21AA00A13980 /* Head first OOADTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF0B065928CA21AA00A13980 /* Head_first_OOADTests.swift */,
+				EF6F24BC28CDD7D500F73A59 /* Chapter02Tests */,
+				EF6F24BB28CDD7C200F73A59 /* Chapter01tests */,
 			);
 			path = "Head first OOADTests";
 			sourceTree = "<group>";
 		};
-		EF0B066228CA21AA00A13980 /* Head first OOADUITests */ = {
+		EF6F24B728CDC7EB00F73A59 /* Chapter 01 */ = {
 			isa = PBXGroup;
 			children = (
-				EF0B066328CA21AA00A13980 /* Head_first_OOADUITests.swift */,
-				EF0B066528CA21AA00A13980 /* Head_first_OOADUITestsLaunchTests.swift */,
+				EF0B067228CA21FA00A13980 /* Guitar.swift */,
+				EF6F24B828CDC80300F73A59 /* Inventory.swift */,
 			);
-			path = "Head first OOADUITests";
+			path = "Chapter 01";
+			sourceTree = "<group>";
+		};
+		EF6F24BA28CDD79B00F73A59 /* Chapter 02 */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F24BF28CDD81000F73A59 /* DogDoor.swift */,
+				EF6F24C128CDD94A00F73A59 /* RemoteControl.swift */,
+			);
+			path = "Chapter 02";
+			sourceTree = "<group>";
+		};
+		EF6F24BB28CDD7C200F73A59 /* Chapter01tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0B065928CA21AA00A13980 /* Head_first_OOADTests.swift */,
+			);
+			path = Chapter01tests;
+			sourceTree = "<group>";
+		};
+		EF6F24BC28CDD7D500F73A59 /* Chapter02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F24BD28CDD7F400F73A59 /* Chapter02Tests.swift */,
+			);
+			path = Chapter02Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,24 +182,6 @@
 			productReference = EF0B065528CA21AA00A13980 /* Head first OOADTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EF0B065E28CA21AA00A13980 /* Head first OOADUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF0B066F28CA21AA00A13980 /* Build configuration list for PBXNativeTarget "Head first OOADUITests" */;
-			buildPhases = (
-				EF0B065B28CA21AA00A13980 /* Sources */,
-				EF0B065C28CA21AA00A13980 /* Frameworks */,
-				EF0B065D28CA21AA00A13980 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EF0B066128CA21AA00A13980 /* PBXTargetDependency */,
-			);
-			name = "Head first OOADUITests";
-			productName = "Head first OOADUITests";
-			productReference = EF0B065F28CA21AA00A13980 /* Head first OOADUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +196,6 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					EF0B065428CA21AA00A13980 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = EF0B063E28CA21A900A13980;
-					};
-					EF0B065E28CA21AA00A13980 = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = EF0B063E28CA21A900A13980;
 					};
@@ -224,7 +216,6 @@
 			targets = (
 				EF0B063E28CA21A900A13980 /* Head first OOAD */,
 				EF0B065428CA21AA00A13980 /* Head first OOADTests */,
-				EF0B065E28CA21AA00A13980 /* Head first OOADUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,13 +238,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF0B065D28CA21AA00A13980 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,8 +247,11 @@
 			files = (
 				EF0B064728CA21A900A13980 /* ViewController.swift in Sources */,
 				EF0B064328CA21A900A13980 /* AppDelegate.swift in Sources */,
+				EF6F24C028CDD81000F73A59 /* DogDoor.swift in Sources */,
+				EF6F24B928CDC80300F73A59 /* Inventory.swift in Sources */,
+				EF6F24C228CDD94A00F73A59 /* RemoteControl.swift in Sources */,
 				EF0B064528CA21A900A13980 /* SceneDelegate.swift in Sources */,
-				EF0B067328CA21FA00A13980 /* Guitars.swift in Sources */,
+				EF0B067328CA21FA00A13980 /* Guitar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,15 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF0B065A28CA21AA00A13980 /* Head_first_OOADTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF0B065B28CA21AA00A13980 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF0B066628CA21AA00A13980 /* Head_first_OOADUITestsLaunchTests.swift in Sources */,
-				EF0B066428CA21AA00A13980 /* Head_first_OOADUITests.swift in Sources */,
+				EF6F24BE28CDD7F400F73A59 /* Chapter02Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,11 +271,6 @@
 			isa = PBXTargetDependency;
 			target = EF0B063E28CA21A900A13980 /* Head first OOAD */;
 			targetProxy = EF0B065628CA21AA00A13980 /* PBXContainerItemProxy */;
-		};
-		EF0B066128CA21AA00A13980 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EF0B063E28CA21A900A13980 /* Head first OOAD */;
-			targetProxy = EF0B066028CA21AA00A13980 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -530,42 +504,6 @@
 			};
 			name = Release;
 		};
-		EF0B067028CA21AA00A13980 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35CLP9DGBY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.myself.mid.Head-first-OOADUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Head first OOAD";
-			};
-			name = Debug;
-		};
-		EF0B067128CA21AA00A13980 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35CLP9DGBY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.myself.mid.Head-first-OOADUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Head first OOAD";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -592,15 +530,6 @@
 			buildConfigurations = (
 				EF0B066D28CA21AA00A13980 /* Debug */,
 				EF0B066E28CA21AA00A13980 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF0B066F28CA21AA00A13980 /* Build configuration list for PBXNativeTarget "Head first OOADUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF0B067028CA21AA00A13980 /* Debug */,
-				EF0B067128CA21AA00A13980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
