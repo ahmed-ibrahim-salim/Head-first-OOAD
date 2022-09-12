@@ -15,7 +15,7 @@ class DogDoor {
         self.open = false
     }
     
-    func openTheDoor(withDelay delay: Double) {
+    func openTheDoor(withDelay delay: Double = 5.0) {
         
         self.open = true
         

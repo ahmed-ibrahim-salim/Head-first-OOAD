@@ -19,6 +19,8 @@
 		EF6F24BE28CDD7F400F73A59 /* Chapter02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F24BD28CDD7F400F73A59 /* Chapter02Tests.swift */; };
 		EF6F24C028CDD81000F73A59 /* DogDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F24BF28CDD81000F73A59 /* DogDoor.swift */; };
 		EF6F24C228CDD94A00F73A59 /* RemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F24C128CDD94A00F73A59 /* RemoteControl.swift */; };
+		EF9403A528CF6B7100AB8E87 /* BarkRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9403A428CF6B7100AB8E87 /* BarkRecognizer.swift */; };
+		EF9403A828CF6CE200AB8E87 /* Chapter03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9403A728CF6CE200AB8E87 /* Chapter03Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EF6F24BD28CDD7F400F73A59 /* Chapter02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter02Tests.swift; sourceTree = "<group>"; };
 		EF6F24BF28CDD81000F73A59 /* DogDoor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDoor.swift; sourceTree = "<group>"; };
 		EF6F24C128CDD94A00F73A59 /* RemoteControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControl.swift; sourceTree = "<group>"; };
+		EF9403A428CF6B7100AB8E87 /* BarkRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarkRecognizer.swift; sourceTree = "<group>"; };
+		EF9403A728CF6CE200AB8E87 /* Chapter03Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter03Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		EF0B064128CA21A900A13980 /* Head first OOAD */ = {
 			isa = PBXGroup;
 			children = (
+				EF9403A028CF1B3300AB8E87 /* Chapter 03 */,
 				EF6F24BA28CDD79B00F73A59 /* Chapter 02 */,
 				EF6F24B728CDC7EB00F73A59 /* Chapter 01 */,
 				EF0B064228CA21A900A13980 /* AppDelegate.swift */,
@@ -104,6 +109,7 @@
 		EF0B065828CA21AA00A13980 /* Head first OOADTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF9403A628CF6CB600AB8E87 /* Chapter 03 */,
 				EF6F24BC28CDD7D500F73A59 /* Chapter02Tests */,
 				EF6F24BB28CDD7C200F73A59 /* Chapter01tests */,
 			);
@@ -142,6 +148,22 @@
 				EF6F24BD28CDD7F400F73A59 /* Chapter02Tests.swift */,
 			);
 			path = Chapter02Tests;
+			sourceTree = "<group>";
+		};
+		EF9403A028CF1B3300AB8E87 /* Chapter 03 */ = {
+			isa = PBXGroup;
+			children = (
+				EF9403A428CF6B7100AB8E87 /* BarkRecognizer.swift */,
+			);
+			path = "Chapter 03";
+			sourceTree = "<group>";
+		};
+		EF9403A628CF6CB600AB8E87 /* Chapter 03 */ = {
+			isa = PBXGroup;
+			children = (
+				EF9403A728CF6CE200AB8E87 /* Chapter03Tests.swift */,
+			);
+			path = "Chapter 03";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +274,7 @@
 				EF6F24C228CDD94A00F73A59 /* RemoteControl.swift in Sources */,
 				EF0B064528CA21A900A13980 /* SceneDelegate.swift in Sources */,
 				EF0B067328CA21FA00A13980 /* Guitar.swift in Sources */,
+				EF9403A528CF6B7100AB8E87 /* BarkRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +284,7 @@
 			files = (
 				EF0B065A28CA21AA00A13980 /* Head_first_OOADTests.swift in Sources */,
 				EF6F24BE28CDD7F400F73A59 /* Chapter02Tests.swift in Sources */,
+				EF9403A828CF6CE200AB8E87 /* Chapter03Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
