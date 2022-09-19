@@ -28,10 +28,10 @@ class Chapter03Tests: XCTestCase {
         let expectatedTime = 0.001
         
         XCTAssertFalse(sut.barking)
-       
+        sut.barking = true
+        XCTAssertTrue(sut.barking)
         
         //when
-        sut.barking = true
         sut.recognize(withDelay: expectatedTime)
         
         DispatchQueue.main.asyncAfter(deadline: .now() + expectatedTime){
